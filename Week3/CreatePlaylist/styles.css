@@ -1,0 +1,110 @@
+*{
+/* CSS HEX */
+--bright-snow: #fcfafaff;
+--rosy-granite: #897c80ff;
+--midnight-violet: #240115ff;
+--palm-leaf: #a5aa52ff;
+--light-green: #96e1da;
+--dark-teal: #13505bff;
+--light-sea-green: #2ec4b6ff;
+
+color: aliceblue;
+
+}
+
+body {
+background-color:var(--rosy-granite) ;
+background-image: url(./assets/pattern4.png);
+
+padding-left: 60px;
+padding-right: 60px;
+padding-top: 4px;
+padding-bottom: 60px;
+
+}
+
+header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 30px;
+    font-family: Righteous;
+    color: var(--bright-snow);
+    font-size: 65px;
+    font-weight: 700px;
+    background-color:var(--midnight-violet);
+    opacity: 0.82;
+}
+
+.title{
+   font-family: Lato;
+   font-size: 50px;
+   font-weight: 500;
+   font-style: italic;
+   color: var(--light-green);
+   margin-bottom: 32px;
+
+}
+.title::first-letter{
+    font-size: 60px;
+}
+
+h2{
+    font-family: Righteous;
+    color: var(--bright-snow);
+    font-size: 40px;
+    font-weight: 700px;
+    text-shadow: 0.6px 6px var(--midnight-violet);
+
+}
+
+h3{
+    font-family: Lato;
+   font-size: 30px;
+   font-weight: 500;
+   font-style: normal;
+   color: var(--light-green);
+   text-shadow: 0.6px 0.6px var(--midnight-violet);
+}
+
+h4{
+    font-family: Lato;
+   font-size: 25px;
+   font-weight: 300;
+   font-style: normal;
+   color: var(--bright-snow);
+   text-shadow: 0.6px 6px var(--midnight-violet);
+
+}
+.Education > ul{
+  font-size: 40px;
+  list-style-image: url(./assets/book2.png);
+}
+
+
+button{
+    margin-top: 5px;
+    background-color: var(--rosy-granite);
+    box-shadow: 0.6px 6px var(--midnight-violet);
+    border-radius: 20px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: 15px;
+    
+}
+
+button:hover{
+    margin-bottom: 10px;
+    background-color: var(--midnight-violet);
+    box-shadow: 6px 6px var(--light-green);
+
+}
+
+button> img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 25px;
+    box-shadow: 2px 2px var(--bright-snow);
+
+}
+
